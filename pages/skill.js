@@ -40,9 +40,9 @@ function Skill() {
           </div>
           <div>
             <p className="text-2xl font-mono">Deployment</p>
-            <p className="text-1xl font-mono">Netlify</p>
+            <p className="text-1xl font-mono">Vercel</p>
             <p className="text-sm font-mono mt-4">
-              * Vercel DigitalOcean cPanel *
+              * Netlify DigitalOcean cPanel *
             </p>
           </div>
           <div>
