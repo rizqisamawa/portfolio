@@ -1,41 +1,8 @@
 import Navbar from "../components/navbar";
-import Image from "next/image";
 import Head from "next/head";
+import Image from "next/image";
 
 function Media() {
-  const image = [
-    {
-      id: 1,
-      href: "mailto:rizqisamawa11@gmail.com",
-      src: "/svg/mail.svg",
-      alt: "mail",
-    },
-    {
-      id: 2,
-      href: "https://www.instagram.com/rizqisamawa",
-      src: "/svg/instagram.svg",
-      alt: "instagram",
-    },
-    {
-      id: 3,
-      href: "https://twitter.com/rizqisamawa11",
-      src: "/svg/twitter.svg",
-      alt: "twitter",
-    },
-    {
-      id: 4,
-      href: "https://github.com/rizqisamawa",
-      src: "/svg/github.svg",
-      alt: "github",
-    },
-    {
-      id: 5,
-      href: "https://www.npmjs.com/~rizqisamawa",
-      src: "/svg/npm.svg",
-      alt: "npm",
-    },
-  ];
-
   return (
     <>
       <Head>
@@ -45,17 +12,66 @@ function Media() {
 
       <div className="mx-24 items-center mt-40">
         <ul className="flex space-x-10 justify-center p-10 items-center content-center">
-          {image.map((img) => {
-            return (
-              <div key={img.id}>
-                <li>
-                  <a href={img.href} target="_blank" rel="noopener noreferrer">
-                    <Image src={img.src} alt={img.src} width={50} height={50} />
-                  </a>
-                </li>
-              </div>
-            );
-          })}
+          <li>
+            <a
+              href="mailto:rizqisamawa11@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src="/svg/mail.svg" alt="mail" width={50} height={50} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/rizqisamawa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/svg/instagram.svg"
+                alt="instagram"
+                width={50}
+                height={50}
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/rizqisamawa11"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/svg/twitter.svg"
+                alt="twitter"
+                width={50}
+                height={50}
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/rizqisamawa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/svg/github.svg"
+                alt="github"
+                width={50}
+                height={50}
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.npmjs.com/~rizqisamawa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src="/svg/npm.svg" alt="npm" width={50} height={50} />
+            </a>
+          </li>
         </ul>
       </div>
     </>
