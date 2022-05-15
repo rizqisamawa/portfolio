@@ -1,5 +1,4 @@
 import Navbar from "../components/navbar";
-import styles from "../styles/home.css";
 import Typed from "typed.js";
 import Head from "next/head";
 import { useEffect, useRef } from "react";
@@ -33,7 +32,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <div className="mx-24 items-center justify-center mt-10 text-center">
-        <div className={styles.box}></div>
+        <div className="box"></div>
         <p className="mt-8 text-8xl font-sans font-medium tracking-[5px]">
           <span ref={el}></span>
         </p>
