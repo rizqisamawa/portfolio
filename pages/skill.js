@@ -1,64 +1,66 @@
 import Navbar from "../components/navbar";
 import Head from "next/head";
-import Image from "next/image";
 
-function Media() {
-  const images = [
-    {
-      id: 1,
-      href: "mailto:rizqisamawa11@gmail.com",
-      src: "/mail.svg",
-      alt: "mail",
-    },
-    {
-      id: 2,
-      href: "https://www.instagram.com/rizqisamawa",
-      src: "/instagram.svg",
-      alt: "instagram",
-    },
-    {
-      id: 3,
-      href: "https://twitter.com/rizqisamawa11",
-      src: "/twitter.svg",
-      alt: "twitter",
-    },
-    {
-      id: 4,
-      href: "https://github.com/rizqisamawa",
-      src: "/github.svg",
-      alt: "github",
-    },
-    {
-      id: 5,
-      href: "https://www.npmjs.com/~rizqisamawa",
-      src: "/npm.svg",
-      alt: "npm",
-    },
-  ];
+function Skill() {
   return (
     <>
       <Head>
-        <title>Media | Muhammad Rizqi Samawa</title>
+        <title>Skill | Muhammad Rizqi Samawa</title>
       </Head>
       <Navbar />
-
-      <div className="mx-24 items-center mt-40">
-        <ul className="flex space-x-10 justify-center p-10 items-center content-center">
-          {images.map((img) => {
-            return (
-              <>
-                <li>
-                  <a href={img.href} target="_blank" rel="noopener noreferrer">
-                    <Image src={img.src} alt={img.alt} width={50} height={50} />
-                  </a>
-                </li>
-              </>
-            );
-          })}
-        </ul>
+      <div className="mx-24 items-center mt-20">
+        <div className="grid grid-cols-3 gap-10 mt-2 text-center">
+          <div>
+            <p className="text-2xl font-mono">Languages</p>
+            <p className="text-1xl font-mono">PHP Javascript</p>
+            <p className="text-sm font-mono mt-10">
+              * Go Dart TypeScript Phyton*
+            </p>
+          </div>
+          <div>
+            <p className="text-2xl font-mono">Framework</p>
+            <p className="text-1xl font-mono">
+              Laravel CodeIgniter NextJS TailwindCSS Bootstrap
+            </p>
+            <p className="text-sm font-mono mt-4">
+              * NuxtJS Flutter ReactNative ExpressJS NodeJS *
+            </p>
+          </div>
+          <div>
+            <p className="text-2xl font-mono">Library</p>
+            <p className="text-1xl font-mono">ReactJS JQuery</p>
+            <p className="text-sm font-mono mt-10">* VueJS ChartJS ThreeJS *</p>
+          </div>
+          <div>
+            <p className="text-2xl font-mono">Database</p>
+            <p className="text-1xl font-mono">MySQL</p>
+            <p className="text-sm font-mono mt-4">
+              * MongoDB PostgreSQL Redis *
+            </p>
+          </div>
+          <div>
+            <p className="text-2xl font-mono">Deployment</p>
+            <p className="text-1xl font-mono">Netlify</p>
+            <p className="text-sm font-mono mt-4">
+              * Vercel DigitalOcean cPanel *
+            </p>
+          </div>
+          <div>
+            <p className="text-2xl font-mono">Other Tools</p>
+            <p className="text-1xl font-mono">VSCode Git</p>
+            <p className="text-sm font-mono mt-4">
+              * Vim Docker GraphQL NGINX*
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="text-center mt-20">
+        <p className="italic font-semibold underline">
+          Note : The * sign is the technology i want to learn.
+        </p>
       </div>
     </>
   );
 }
 
-export default Media;
+export default Skill;
