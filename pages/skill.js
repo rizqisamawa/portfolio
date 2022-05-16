@@ -22,7 +22,7 @@ function Skill() {
             <p className="text-1xl font-mono">
               Laravel CodeIgniter NextJS TailwindCSS Bootstrap
             </p>
-            <p className="text-sm font-mono md:mt-4">
+            <p className="text-sm font-mono lg:mt-4">
               * NuxtJS Flutter ReactNative ExpressJS NodeJS *
             </p>
           </div>
@@ -36,7 +36,7 @@ function Skill() {
           <div>
             <p className="text-2xl font-mono underline">Database</p>
             <p className="text-1xl font-mono">MySQL</p>
-            <p className="text-sm font-mono lg:mt-4">
+            <p className="text-sm font-mono md:mt-4">
               * MongoDB PostgreSQL Redis *
             </p>
           </div>
