@@ -31,9 +31,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="mx-24 items-center justify-center mt-10 text-center">
-        <div className="box"></div>
-        <p className="mt-8 text-8xl font-sans font-medium tracking-[5px]">
+      <div className="mx-22 items-center justify-center mt-10 text-center">
+//         <div className="box"></div>
+        <p className="mt-10 text-5xl font-sans font-medium tracking-[5px]">
           <span ref={el}></span>
         </p>
       </div>
