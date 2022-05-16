@@ -10,7 +10,7 @@ function Media() {
       </Head>
       <Navbar />
 
-      <div className="mx-24 items-center mt-40">
+      <div className="mx-22 items-center mt-40">
         <ul className="flex space-x-10 justify-center p-10 items-center content-center">
           <li>
             <a
