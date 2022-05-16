@@ -22,7 +22,7 @@ function Skill() {
             <p className="text-1xl font-mono">
               Laravel CodeIgniter NextJS TailwindCSS Bootstrap
             </p>
-            <p className="text-sm font-mono mt-4 md:mt-4">
+            <p className="text-sm font-mono mt-10 md:mt-4">
               * NuxtJS Flutter ReactNative ExpressJS NodeJS *
             </p>
           </div>
@@ -42,9 +42,9 @@ function Skill() {
           </div>
           <div>
             <p className="text-2xl font-mono underline">Deployment</p>
-            <p className="text-1xl font-mono">Netlify</p>
+            <p className="text-1xl font-mono">Vercel</p>
             <p className="text-sm font-mono md:mt-4">
-              * Vercel DigitalOcean cPanel *
+              * Netlify DigitalOcean cPanel *
             </p>
           </div>
           <div>
