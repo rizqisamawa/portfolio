@@ -10,10 +10,10 @@ function About() {
       <Navbar />
       <div className="mx-22 items-center justify-center mt-20 text-center">
         <p className="text-5xl font-sans font-semibold">Hello Everyone</p>
-        <p className="text-2xl font-mono mt-4 p-1">
+        <p className="text-2xl font-mono mt-10 p-1">
           {"My Name is Muhammad Rizqi Samawa, I'm a Fresh Graduate"}
         </p>
-        <p className="text-xl font-sans p-1 font-light italic ">
+        <p className="text-xl font-sans p-1 mt-5 font-light italic ">
           I hope I become a useful person for others
         </p>
         <div className="text-center mt-8">
