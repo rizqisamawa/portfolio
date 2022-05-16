@@ -8,7 +8,7 @@ function Skill() {
         <title>Skill | Muhammad Rizqi Samawa</title>
       </Head>
       <Navbar />
-      <div className="mx-24 items-center mt-20">
+      <div className="mx-22 items-center mt-20">
         <div className="grid grid-cols-3 gap-10 mt-2 text-center">
           <div>
             <p className="text-2xl font-mono">Languages</p>
