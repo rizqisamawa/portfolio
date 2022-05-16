@@ -8,7 +8,7 @@ function Experience() {
         <title>Experience | Muhammad Rizqi Samawa</title>
       </Head>
       <Navbar />
-      <div className="mx-24 items-center justify-center text-center">
+      <div className="mx-22 items-center justify-center text-center">
         <div className="container mx-auto h-full w-full">
           <div className="wrap relative h-full overflow-hidden py-10 md:px-10">
             <div
