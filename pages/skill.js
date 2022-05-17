@@ -22,7 +22,7 @@ function Skill() {
             <p className="text-1xl font-mono">
               Laravel CodeIgniter NextJS TailwindCSS Bootstrap
             </p>
-            <p className="text-sm font-mono">
+            <p className="text-sm font-mono md:mt-10">
               * NuxtJS Flutter ReactNative ExpressJS NodeJS *
             </p>
           </div>
