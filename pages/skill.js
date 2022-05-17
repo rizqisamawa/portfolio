@@ -28,7 +28,7 @@ function Skill() {
           </div>
           <div>
             <p className="text-2xl font-mono underline">Library</p>
-            <p className="text-1xl font-mono">ReactJS JQuery</p>
+            <p className="text-1xl font-mono">ReactJS JQuery DaisyUI</p>
             <p className="text-sm font-mono md:mt-10">
               * VueJS ChartJS ThreeJS *
             </p>
