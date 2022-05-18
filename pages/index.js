@@ -29,6 +29,12 @@ export default function Home() {
       <Head>
         <title>Muhammad Rizqi Samawa</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="title" content="Miukyo | Personal website" />
+        <meta
+          name="rizqisamawa"
+          content="muhammad rizqi samawa"/>
       </Head>
       <Navbar />
       <div className="mx-22 items-center justify-center mt-40 text-center">
