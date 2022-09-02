@@ -31,7 +31,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="title" content="Miukyo | Personal website" />
+        <meta name="title" content="Muhammad Rizqi Samawa | Personal website" />
         <meta
           name="rizqisamawa"
           content="muhammad rizqi samawa"/>
