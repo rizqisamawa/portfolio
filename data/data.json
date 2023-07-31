@@ -1,0 +1,227 @@
+{
+  "about": [
+    {
+      "title": "Hello Everyone",
+      "greeting": "My Name is Muhammad Rizqi Samawa",
+      "motto": "I hope I become a useful person for others",
+      "info_npx": "npx rizqisamawa"
+    }
+  ],
+  "skill": [
+    {
+      "name": "HTML",
+      "svg": "https://cdn.worldvectorlogo.com/logos/html-1.svg"
+    },
+    { "name": "CSS", "svg": "https://cdn.worldvectorlogo.com/logos/css-3.svg" },
+    {
+      "name": "PHP",
+      "svg": "https://cdn.worldvectorlogo.com/logos/php-logo-only-letter.svg"
+    },
+    {
+      "name": "JavaScript",
+      "svg": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+    },
+    {
+      "name": "TypeScript",
+      "svg": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+    },
+    {
+      "name": "CodeIgniter",
+      "svg": "https://www.svgrepo.com/show/353579/codeigniter.svg"
+    },
+    {
+      "name": "Laravel",
+      "svg": "https://cdn.worldvectorlogo.com/logos/laravel-2.svg"
+    },
+    {
+      "name": "Node JS",
+      "svg": "https://www.svgrepo.com/show/303360/nodejs-logo.svg"
+    },
+    {
+      "name": "Express JS",
+      "svg": "https://cdn.worldvectorlogo.com/logos/express-109.svg"
+    },
+    {
+      "name": "React JS",
+      "svg": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+    },
+    {
+      "name": "Next JS",
+      "svg": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
+    },
+    {
+      "name": "TailwindCSS",
+      "svg": "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
+    },
+    {
+      "name": "Bootstrap",
+      "svg": "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg"
+    },
+    {
+      "name": "JQuery",
+      "svg": "https://cdn.worldvectorlogo.com/logos/jquery-1.svg"
+    },
+    {
+      "name": "MySQL",
+      "svg": "https://img.icons8.com/?size=512&id=UFXRpPFebwa2&format=png"
+    },
+    {
+      "name": "PostgreSQL",
+      "svg": "https://www.svgrepo.com/show/354200/postgresql.svg"
+    },
+    {
+      "name": "MongoDB",
+      "svg": "https://www.svgrepo.com/show/354090/mongodb.svg"
+    },
+    {
+      "name": "Prisma",
+      "svg": "https://cdn.worldvectorlogo.com/logos/prisma-3.svg"
+    },
+    {
+      "name": "Vercel",
+      "svg": "https://cdn.worldvectorlogo.com/logos/vercel.svg"
+    },
+    {
+      "name": "VSCode",
+      "svg": "https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg"
+    },
+    {
+      "name": "GIT",
+      "svg": "https://cdn.worldvectorlogo.com/logos/git-icon.svg"
+    },
+    {
+      "name": "NPM",
+      "svg": "https://cdn.worldvectorlogo.com/logos/npm-square-red-1.svg"
+    },
+    {
+      "name": "Figma",
+      "svg": "https://img.icons8.com/?size=512&id=zfHRZ6i1Wg0U&format=png"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "title": "Sistem Informasi Legalisir",
+      "datedet": "Agustus 2020",
+      "role": "Kerja Pratek",
+      "location": "Dispenduk Capil Gresik",
+      "techStack": "Laravel, PHP, JavaScript, Bootstrap, MySQL"
+    },
+    {
+      "id": 2,
+      "title": "Sistem Pendataan Covid-19 di Desa Pongangan",
+      "datedet": "October 2020",
+      "role": "Kuliah Kerja Nyata",
+      "location": "Desa Pongangan",
+      "techStack": "Laravel, PHP, JavaScript, Bootstrap, MySQL"
+    },
+    {
+      "id": 3,
+      "title": "Sistem Prediksi Penjualan Pupuk dengan Metode Monte Carlo",
+      "datedet": "November 2021",
+      "role": "Skripsi",
+      "location": "Koperasi Karyawan Keluarga Besar PT Petrokimia Gresik",
+      "techStack": "Laravel, PHP, JavaScript, Bootstrap, MySQL"
+    },
+    {
+      "id": 4,
+      "title": "Sistem Prediksi Diagnosa Penyakit Hepatitis Metode ANN",
+      "datedet": "December 2021",
+      "role": "Membantu Pembuatan Website",
+      "location": "Orang",
+      "techStack": "Laravel, PHP, Bootstrap, MySQL"
+    },
+    {
+      "id": 5,
+      "title": "Si Pesan",
+      "datedet": "Mei 2022",
+      "role": "Membantu Pembuatan Website",
+      "location": "Orang",
+      "techStack": "CodeIgniter, PHP, JavaScript, Bootstrap, MySQL"
+    },
+    {
+      "id": 6,
+      "title": "Design Apps ( Monitoring )",
+      "datedet": "November 2022",
+      "role": "Karyawan",
+      "location": "PT Bumi Menara Internusa",
+      "techStack": "Codeigniter, PHP, Bootstrap, MySQL, JavaScript"
+    },
+    {
+      "id": 7,
+      "title": "Design Apps ( Integrasi dengan E-Catalog )",
+      "datedet": "Febuari 2023",
+      "role": "Karyawan",
+      "location": "PT Bumi Menara Internusa",
+      "techStack": "Codeigniter, PHP, Bootstrap, MySQL, JavaScript"
+    },
+    {
+      "id": 8,
+      "title": "Traceability",
+      "datedet": "Juli 2023",
+      "role": "Karyawan",
+      "location": "PT Bumi Menara Internusa",
+      "techStack": "Codeigniter, PHP, Bootstrap, MySQL, JavaScript"
+    },
+    {
+      "id": 9,
+      "title": "Investment",
+      "datedet": "Juni 2023",
+      "role": "Karyawan",
+      "location": "PT Bumi Menara Internusa",
+      "techStack": "Codeigniter, PHP, Bootstrap, MySQL, JavaScript"
+    },
+    {
+      "id": 10,
+      "title": "Nota PBB",
+      "datedet": "Juli 2023",
+      "role": "Karyawan",
+      "location": "PT Bumi Menara Internusa",
+      "techStack": "Codeigniter, PHP, Bootstrap, MySQL, JavaScript"
+    }
+  ],
+  "media": [
+    {
+      "id": 1,
+      "link": "mailto:rizqisamawa11@gmail.com",
+      "src": "/svg/mail.svg",
+      "alt": "mail"
+    },
+    {
+      "id": 2,
+      "link": "https://www.instagram.com/rizqisamawa",
+      "src": "/svg/instagram.svg",
+      "alt": "instagram"
+    },
+    {
+      "id": 3,
+      "link": "https://twitter.com/rizqisamawa11",
+      "src": "/svg/twitter.svg",
+      "alt": "twitter"
+    },
+    {
+      "id": 4,
+      "link": "www.linkedin.com/in/rizqisamawa",
+      "src": "/svg/linkedin.svg",
+      "alt": "linkedin"
+    },
+    {
+      "id": 5,
+      "link": "https://github.com/rizqisamawa",
+      "src": "/svg/github.svg",
+      "alt": "github"
+    },
+    {
+      "id": 6,
+      "link": "https://gitlab.com/rizqisamawa11",
+      "src": "/svg/gitlab.svg",
+      "alt": "gitlab"
+    },
+    {
+      "id": 7,
+      "link": "https://www.npmjs.com/~rizqisamawa",
+      "src": "/svg/npm.svg",
+      "alt": "npm"
+    }
+  ]
+}

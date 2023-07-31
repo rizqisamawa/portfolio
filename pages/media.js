@@ -1,8 +1,16 @@
 import Navbar from "../components/navbar";
 import Head from "next/head";
 import Image from "next/image";
+import data from "../data/data.json";
+import { useState } from "react";
 
 function Media() {
+  const [media, setMedia] = useState([]);
+
+  useState(() => {
+    setMedia(data.media);
+  }, []);
+
   return (
     <>
       <Head>
@@ -10,69 +18,16 @@ function Media() {
       </Head>
       <Navbar />
 
-      <div className="mx-22 items-center mt-40">
-        <ul className="flex space-x-10 justify-center p-10 items-center content-center">
-          <li>
-            <a
-              href="mailto:rizqisamawa11@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image src="/svg/mail.svg" alt="mail" width={50} height={50} />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/rizqisamawa"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/svg/instagram.svg"
-                alt="instagram"
-                width={50}
-                height={50}
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://twitter.com/rizqisamawa11"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/svg/twitter.svg"
-                alt="twitter"
-                width={50}
-                height={50}
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/rizqisamawa"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/svg/github.svg"
-                alt="github"
-                width={50}
-                height={50}
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.npmjs.com/~rizqisamawa"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image src="/svg/npm.svg" alt="npm" width={50} height={50} />
-            </a>
-          </li>
-        </ul>
+      <div className="mx-22 items-center mt-20 md:mt-40">
+        <div className="grid grid-cols-2 gap-10 md:grid-cols-4 p-2 items-center content-center">
+          {media.map((item) => (
+            <div className="flex justify-center" key={item.id}>
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
+                <Image src={item.src} alt={item.alt} width={50} height={50} />
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
