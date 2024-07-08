@@ -15,7 +15,7 @@
     { "name": "CSS", "svg": "https://cdn.worldvectorlogo.com/logos/css-3.svg" },
     {
       "name": "PHP",
-      "svg": "https://cdn.worldvectorlogo.com/logos/php-logo-only-letter.svg"
+      "svg": "https://www.php.net/images/logos/php-logo.svg"
     },
     {
       "name": "JavaScript",
@@ -186,6 +186,22 @@
       "role": "Karyawan",
       "location": "PT Bumi Menara Internusa",
       "techStack": "Codeigniter, PHP, Bootstrap, MySQL, JavaScript"
+    },
+    {
+      "id": 12,
+      "title": "API BMI PEOPLE PRO",
+      "datedet": "Juni 2024",
+      "role": "Karyawan",
+      "location": "PT Bumi Menara Internusa",
+      "techStack": "Node JS, JavaScript, MySQL"
+    },
+    {
+      "id": 13,
+      "title": "API HRIS CPA",
+      "datedet": "Mei 2024",
+      "role": "Karyawan",
+      "location": "PT Bumi Menara Internusa",
+      "techStack": "Node JS, JavaScript, MySQL"
     }
   ],
   "media": [
