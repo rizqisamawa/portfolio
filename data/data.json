@@ -406,8 +406,6 @@
         "PHP",
         "JavaScript",
         "Bootstrap",
-        "Bootstrap",
-        "Bootstrap",
         "MYSQL"
       ],
       "contributions": [
@@ -416,9 +414,7 @@
         "Membuatkan fiture dashboard FPTK digunakan untuk mengelola ketika pengajuan setelah selesai",
         "Membuatkan form Pendatan Berkala sebagai perubahan data karyawan dengan sesuai peraturan"
       ],
-      "links": {
-        "github": "https://github.com/rizqisamawa/sistem-prediksi-diagnosa-penyakit-hepatitis-metode-ANN"
-      }
+      "links": {}
     }
   ],
   "media": [
