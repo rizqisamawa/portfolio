@@ -1,9 +1,9 @@
 {
   "about": [
     {
-      "title": "Hello Everyone",
-      "greeting": "My Name is Muhammad Rizqi Samawa",
-      "motto": "I hope I become a useful person for others",
+      "greeting": "Hello Everyone",
+      "nama": "Muhammad Rizqi Samawa",
+      "role": "Fullstack Developer • Mobile Developer",
       "info_npx": "npx rizqisamawa"
     }
   ],
@@ -102,106 +102,323 @@
     {
       "id": 1,
       "title": "Sistem Informasi Legalisir",
-      "datedet": "Agustus 2020",
-      "role": "Kerja Pratek",
-      "location": "Dispenduk Capil Gresik",
-      "techStack": "Laravel, PHP, JavaScript, Bootstrap, MySQL"
+      "role": "Fullstack Developer",
+      "team": "Solo Project",
+      "duration": "Agt 2020",
+      "year": 2020,
+      "description": "Aplikasi sistem informasi untuk mengelola proses legalisir dokumen akademik secara digital",
+      "projectType": "Academic",
+      "source": "Universitas Muhammadiyah Gresik",
+      "technologies": ["Laravel", "PHP", "JavaScript", "Bootstrap", "MySQL"],
+      "contributions": [
+        "Membuatkan informasi persyaratan legalisir",
+        "Memudahkan pengecekan data legalisir dalam satu jalur",
+        "Membuatkan pencataan ketika sudah selesai legalisir sebagai data informasi"
+      ],
+      "links": {
+        "github": "https://github.com/rizqisamawa/sistem-informasi-legalisir"
+      }
     },
     {
       "id": 2,
       "title": "Sistem Pendataan Covid-19 di Desa Pongangan",
-      "datedet": "October 2020",
-      "role": "Kuliah Kerja Nyata",
-      "location": "Desa Pongangan",
-      "techStack": "Laravel, PHP, JavaScript, Bootstrap, MySQL"
+      "role": "Fullstack Developer",
+      "team": "Solo Project",
+      "duration": "Okt 2020",
+      "year": 2020,
+      "description": "Sistem pendataan digital untuk melacak dampak Covid-19 di wilayah Desa Pongangan",
+      "projectType": "Academic",
+      "source": "Universitas Muhammadiyah Gresik",
+      "technologies": ["Laravel", "PHP", "JavaScript", "Bootstrap", "MySQL"],
+      "contributions": [
+        "Membuatkan informasi warga desa yang terkena dampak Covid 19",
+        "Membuatkan pendataan warga desa yang terkena dampak Covid 19",
+        "Membuatkan laporan warga desa untuk dikirimkan ke SATGAS GRESIK"
+      ],
+      "links": {
+        "github": "https://github.com/rizqisamawa/sistem-pendataan-covid-19"
+      }
     },
     {
       "id": 3,
       "title": "Sistem Prediksi Penjualan Pupuk dengan Metode Monte Carlo",
-      "datedet": "November 2021",
-      "role": "Skripsi",
-      "location": "Koperasi Karyawan Keluarga Besar PT Petrokimia Gresik",
-      "techStack": "Laravel, PHP, JavaScript, Bootstrap, MySQL"
+      "role": "Fullstack Developer",
+      "team": "Solo Project",
+      "duration": "Nov 2021",
+      "year": 2021,
+      "description": "Aplikasi prediksi penjualan pupuk menggunakan metode Monte Carlo berbasis data historis",
+      "projectType": "Academic",
+      "source": "Universitas Muhammadiyah Gresik",
+      "technologies": ["Laravel", "PHP", "JavaScript", "Bootstrap", "MySQL"],
+      "contributions": [
+        "Membuat logika perhitungan berdasarkan Metode Monte Carlo",
+        "Menampilkan grafik dan hasil pada setiap tahun nya"
+      ],
+      "links": {
+        "github": "https://github.com/rizqisamawa/sistem-prediksi-penjualan-pupuk-monte-carlo"
+      }
     },
     {
       "id": 4,
       "title": "Sistem Prediksi Diagnosa Penyakit Hepatitis Metode ANN",
-      "datedet": "December 2021",
-      "role": "Membantu Pembuatan Website",
-      "location": "Orang",
-      "techStack": "Laravel, PHP, Bootstrap, MySQL"
+      "role": "Fullstack Developer",
+      "team": "Team Project - 2 orang",
+      "duration": "Des 2021",
+      "year": 2021,
+      "description": "Sistem prediksi diagnosa hepatitis menggunakan metode Artificial Neural Network (ANN)",
+      "projectType": "Freelance",
+      "source": "Universitas Muhammadiyah Gresik",
+      "technologies": ["Laravel", "PHP", "JavaScript", "Bootstrap", "MySQL"],
+      "contributions": [
+        "Membuat logika perhitungan berdasarkan Metode ANN",
+        "Menampilkan grafik dan hasil pada setiap tahun nya",
+        "Menampilan siapa saja orang terdiagnosa berdasarkan peringkat dan kesempatan lebih terkena dari gejala nya"
+      ],
+      "links": {
+        "github": "https://github.com/rizqisamawa/sistem-prediksi-diagnosa-penyakit-hepatitis-metode-ANN"
+      }
     },
     {
       "id": 5,
       "title": "Si Pesan",
-      "datedet": "Mei 2022",
-      "role": "Membantu Pembuatan Website",
-      "location": "Orang",
-      "techStack": "CodeIgniter, PHP, JavaScript, Bootstrap, MySQL"
+      "role": "Backend Developer",
+      "team": "Team Project - 2 orang",
+      "duration": "Mei 2022",
+      "year": 2022,
+      "description": "Sistem pemesanan internal untuk keperluan administrasi universitas",
+      "projectType": "Freelance",
+      "source": "Universitas Muhammadiyah Gresik",
+      "technologies": [
+        "Codeigniter",
+        "PHP",
+        "JavaScript",
+        "Bootstrap",
+        "MYSQL"
+      ],
+      "contributions": [
+        "Menyesuaikan logika yang dibutuhkan sesuai permintaan",
+        "Memperbaiki bug yang belum diselesaikan"
+      ],
+      "links": {}
     },
     {
       "id": 6,
-      "title": "Design Apps ( Monitoring )",
-      "datedet": "November 2022",
-      "role": "Karyawan",
-      "location": "PT Bumi Menara Internusa",
-      "techStack": "Codeigniter, PHP, Bootstrap, MySQL, JavaScript"
+      "title": "Design Apps [ Monitoring ]",
+      "role": "Fullstack Developer",
+      "team": "Solo Project",
+      "duration": "Nov 2022 - Des 2022",
+      "year": 2022,
+      "description": "Aplikasi internal untuk monitoring pekerjaan tim desain perusahaan",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": [
+        "Codeigniter",
+        "PHP",
+        "JavaScript",
+        "Bootstrap",
+        "MYSQL"
+      ],
+      "contributions": [
+        "Membuatkan sistem fiture baru untuk mempermudahkan pekerjaan di departemen Design",
+        "Mengambil dan menggunakan data dari SAP dengan menggunakan API sebagai data master"
+      ],
+      "links": {}
     },
     {
       "id": 7,
-      "title": "Design Apps ( Integrasi dengan E-Catalog )",
-      "datedet": "Febuari 2023",
-      "role": "Karyawan",
-      "location": "PT Bumi Menara Internusa",
-      "techStack": "Codeigniter, PHP, Bootstrap, MySQL, JavaScript"
+      "title": "Design Apps [ Integrasi E-Catalog ]",
+      "role": "Fullstack Developer",
+      "team": "Solo Project",
+      "duration": "Des 2023 - Jan 2023",
+      "year": 2023,
+      "description": "Integrasi aplikasi design dengan e-catalog internal perusahaan",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": [
+        "Codeigniter",
+        "PHP",
+        "JavaScript",
+        "Bootstrap",
+        "MYSQL"
+      ],
+      "contributions": [
+        "Menggabungkan dua aplikasi menjadi satu",
+        "Menyesuaikan data kebutuhan yang dibutuhkan karena ada konflik data sama"
+      ],
+      "links": {}
     },
     {
       "id": 8,
       "title": "Traceability",
-      "datedet": "Juli 2023",
-      "role": "Karyawan",
-      "location": "PT Bumi Menara Internusa",
-      "techStack": "Codeigniter, PHP, Bootstrap, MySQL, JavaScript"
+      "role": "Fullstack Developer",
+      "team": "Solo Project",
+      "duration": "Jan 2023 - Jun 2023",
+      "year": 2023,
+      "description": "Sistem pelacakan permintaan dan pengiriman vendor serta sertifikasi kualitas",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": [
+        "Codeigniter",
+        "PHP",
+        "JavaScript",
+        "Bootstrap",
+        "MYSQL"
+      ],
+      "contributions": [
+        "Membuatkan data master untuk kebutuhan pencatatan kepemilikan vendor yang berhubungan",
+        "Menampilkan data setiap permintaan dan pengiriman vendor",
+        "Menampilkan sebuah grafik pada setiap permintaan, pengiriman dan kelayakan sertifikat pada setiap vendor"
+      ],
+      "links": {}
     },
     {
       "id": 9,
       "title": "Investment",
-      "datedet": "Juni 2023",
-      "role": "Karyawan",
-      "location": "PT Bumi Menara Internusa",
-      "techStack": "Codeigniter, PHP, Bootstrap, MySQL, JavaScript"
+      "role": "Fullstack Developer",
+      "team": "Solo Project",
+      "duration": "Jan 2023 - Juni 2023",
+      "year": 2023,
+      "description": "Sistem manajemen pengajuan investasi proyek perusahaan",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": [
+        "Codeigniter",
+        "PHP",
+        "JavaScript",
+        "Bootstrap",
+        "MYSQL"
+      ],
+      "contributions": [
+        "Membuatkan form pengajuan utama di setiap pengajuhan permintaan proyek besar sebagai no kob paling tertinggi",
+        "Membuatkan sistem upload file dan data pada software desktop",
+        "Menampilkan hasil pengajuan proyek utama dengan data detail pada sofware desktop dan data terkait dari SAP"
+      ],
+      "links": {}
     },
     {
       "id": 10,
       "title": "Nota PBB",
-      "datedet": "Juli 2023",
-      "role": "Karyawan",
-      "location": "PT Bumi Menara Internusa",
-      "techStack": "Codeigniter, PHP, Bootstrap, MySQL, JavaScript"
+      "role": "Fullstack Developer",
+      "team": "Solo Project",
+      "duration": "Jul 2023 - Agt 2023",
+      "year": 2023,
+      "description": "Sistem unggah dan manajemen dokumen vendor berbasis format file",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": [
+        "Codeigniter",
+        "PHP",
+        "JavaScript",
+        "Bootstrap",
+        "MYSQL"
+      ],
+      "contributions": [
+        "Membuatkan form upload data pada setiap vendor yang dibutuhkan dengan kententuan format nama file",
+        "Membuatkan fiture untuk penggabungan PDF berdasarkan tipe file dan tanggal kirim"
+      ],
+      "links": {}
     },
     {
       "id": 11,
       "title": "E-QR FISH",
-      "datedet": "Desember 2023",
-      "role": "Karyawan",
-      "location": "PT Bumi Menara Internusa",
-      "techStack": "Codeigniter, PHP, Bootstrap, MySQL, JavaScript"
+      "role": "Fullstack Developer",
+      "team": "Solo Project",
+      "duration": "Agt 2023 - Okt 2023",
+      "year": 2023,
+      "description": "Digitalisasi form produksi ikan berdasarkan jenis dan divisi",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": [
+        "Codeigniter",
+        "PHP",
+        "JavaScript",
+        "Bootstrap",
+        "MYSQL"
+      ],
+      "contributions": [
+        "Mendigitalisasi form pengerjaan yang dibutuhkan di departemen Produksi berdasarkan jenis ikan dan divisi"
+      ],
+      "links": {}
     },
     {
       "id": 12,
-      "title": "API BMI PEOPLE PRO",
-      "datedet": "Juni 2024",
-      "role": "Karyawan",
-      "location": "PT Bumi Menara Internusa",
-      "techStack": "Node JS, JavaScript, MySQL"
+      "title": "API BMI People Pro",
+      "role": "Backend Developer",
+      "team": "Solo Project",
+      "duration": "Apr 2024 - Jun 2024",
+      "year": 2024,
+      "description": "Backend API untuk pengelolaan cuti dan surat tugas karyawan",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": ["JavaScript", "NodeJS", "MYSQL", "PM2"],
+      "contributions": [
+        "Membuatkan login untuk aplikasi mobile",
+        "Membuatkan fiture cuti tahunan, cuti khusus, ijin dan surat dinas berdasarkan peraturan perusahaan"
+      ],
+      "links": {}
     },
     {
       "id": 13,
       "title": "API HRIS CPA",
-      "datedet": "Mei 2024",
-      "role": "Karyawan",
-      "location": "PT Bumi Menara Internusa",
-      "techStack": "Node JS, JavaScript, MySQL"
+      "role": "Backend Developer",
+      "team": "Solo Project",
+      "duration": "Mei 2024 - Jun 2024",
+      "year": 2024,
+      "description": "Backend API untuk kebutuhan absensi aplikasi mobile karyawan CPA",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": ["JavaScript", "NodeJS", "MYSQL", "PM2"],
+      "contributions": [
+        "Membuatkan login untuk aplikasi mobile",
+        "Membuatkan fiture absen masuk dan pulang berdasarkan peraturan CPA"
+      ],
+      "links": {}
+    },
+    {
+      "id": 14,
+      "title": "API Bea Cukai",
+      "role": "Backend Developer",
+      "team": "Solo Project",
+      "duration": "Nov 2024",
+      "year": 2024,
+      "description": "Backend API untuk menampilkan data untuk bea cukai",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": ["JavaScript", "NodeJS", "MYSQL", "PM2"],
+      "contributions": [
+        "Membuat pengamanan lebih pada setiap proses pada endpoint API",
+        "Menampilkan data yang dibutuhkan oleh bea cukai"
+      ],
+      "links": {}
+    },
+    {
+      "id": 15,
+      "title": "BMI People Pro",
+      "role": "Fullstack Developer",
+      "team": "Team Project - 3 orang",
+      "duration": "Juli 2024 - Sekarang",
+      "year": 2024,
+      "description": "Aplikasi untuk kebutuhan HR pada perusahaan",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": [
+        "Codeigniter",
+        "PHP",
+        "JavaScript",
+        "Bootstrap",
+        "Bootstrap",
+        "Bootstrap",
+        "MYSQL"
+      ],
+      "contributions": [
+        "Membuatkan fiture penambahan data budget karyawan di MPP beserta approve dan reject",
+        "Membuatkan fiture form FPTK & FPMD beserta approve dan reject",
+        "Membuatkan fiture dashboard FPTK digunakan untuk mengelola ketika pengajuan setelah selesai",
+        "Membuatkan form Pendatan Berkala sebagai perubahan data karyawan dengan sesuai peraturan"
+      ],
+      "links": {
+        "github": "https://github.com/rizqisamawa/sistem-prediksi-diagnosa-penyakit-hepatitis-metode-ANN"
+      }
     }
   ],
   "media": [
