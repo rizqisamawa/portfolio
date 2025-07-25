@@ -109,7 +109,7 @@
       "description": "Aplikasi sistem informasi untuk mengelola proses legalisir dokumen akademik secara digital",
       "projectType": "Academic",
       "source": "Universitas Muhammadiyah Gresik",
-      "technologies": ["Laravel", "PHP", "JavaScript", "Bootstrap", "MySQL"],
+      "technologies": ["PHP", "JavaScript", "Bootstrap", "Laravel", "MySQL"],
       "contributions": [
         "Membuatkan informasi persyaratan legalisir",
         "Memudahkan pengecekan data legalisir dalam satu jalur",
@@ -129,7 +129,7 @@
       "description": "Sistem pendataan digital untuk melacak dampak Covid-19 di wilayah Desa Pongangan",
       "projectType": "Academic",
       "source": "Universitas Muhammadiyah Gresik",
-      "technologies": ["Laravel", "PHP", "JavaScript", "Bootstrap", "MySQL"],
+      "technologies": ["PHP", "JavaScript", "Bootstrap", "Laravel", "MySQL"],
       "contributions": [
         "Membuatkan informasi warga desa yang terkena dampak Covid 19",
         "Membuatkan pendataan warga desa yang terkena dampak Covid 19",
@@ -149,7 +149,7 @@
       "description": "Aplikasi prediksi penjualan pupuk menggunakan metode Monte Carlo berbasis data historis",
       "projectType": "Academic",
       "source": "Universitas Muhammadiyah Gresik",
-      "technologies": ["Laravel", "PHP", "JavaScript", "Bootstrap", "MySQL"],
+      "technologies": ["PHP", "JavaScript", "Bootstrap", "Laravel", "MySQL"],
       "contributions": [
         "Membuat logika perhitungan berdasarkan Metode Monte Carlo",
         "Menampilkan grafik dan hasil pada setiap tahun nya"
@@ -168,7 +168,7 @@
       "description": "Sistem prediksi diagnosa hepatitis menggunakan metode Artificial Neural Network (ANN)",
       "projectType": "Freelance",
       "source": "Universitas Muhammadiyah Gresik",
-      "technologies": ["Laravel", "PHP", "JavaScript", "Bootstrap", "MySQL"],
+      "technologies": ["PHP", "JavaScript", "Bootstrap", "Laravel", "MySQL"],
       "contributions": [
         "Membuat logika perhitungan berdasarkan Metode ANN",
         "Menampilkan grafik dan hasil pada setiap tahun nya",
@@ -189,10 +189,10 @@
       "projectType": "Freelance",
       "source": "Universitas Muhammadiyah Gresik",
       "technologies": [
-        "Codeigniter",
         "PHP",
         "JavaScript",
         "Bootstrap",
+        "Codeigniter",
         "MYSQL"
       ],
       "contributions": [
@@ -212,10 +212,10 @@
       "projectType": "Company",
       "source": "PT Bumi Menara Internusa",
       "technologies": [
-        "Codeigniter",
         "PHP",
         "JavaScript",
         "Bootstrap",
+        "Codeigniter",
         "MYSQL"
       ],
       "contributions": [
@@ -235,10 +235,10 @@
       "projectType": "Company",
       "source": "PT Bumi Menara Internusa",
       "technologies": [
-        "Codeigniter",
         "PHP",
         "JavaScript",
         "Bootstrap",
+        "Codeigniter",
         "MYSQL"
       ],
       "contributions": [
@@ -258,10 +258,10 @@
       "projectType": "Company",
       "source": "PT Bumi Menara Internusa",
       "technologies": [
-        "Codeigniter",
         "PHP",
         "JavaScript",
         "Bootstrap",
+        "Codeigniter",
         "MYSQL"
       ],
       "contributions": [
@@ -282,10 +282,10 @@
       "projectType": "Company",
       "source": "PT Bumi Menara Internusa",
       "technologies": [
-        "Codeigniter",
         "PHP",
         "JavaScript",
         "Bootstrap",
+        "Codeigniter",
         "MYSQL"
       ],
       "contributions": [
@@ -306,10 +306,10 @@
       "projectType": "Company",
       "source": "PT Bumi Menara Internusa",
       "technologies": [
-        "Codeigniter",
         "PHP",
         "JavaScript",
         "Bootstrap",
+        "Codeigniter",
         "MYSQL"
       ],
       "contributions": [
@@ -329,10 +329,10 @@
       "projectType": "Company",
       "source": "PT Bumi Menara Internusa",
       "technologies": [
-        "Codeigniter",
         "PHP",
         "JavaScript",
         "Bootstrap",
+        "Codeigniter",
         "MYSQL"
       ],
       "contributions": [
@@ -395,17 +395,17 @@
       "id": 15,
       "title": "BMI People Pro",
       "role": "Fullstack Developer",
-      "team": "Team Project - 3 orang",
+      "team": "Team Project - 4 orang",
       "duration": "Juli 2024 - Sekarang",
       "year": 2024,
-      "description": "Aplikasi untuk kebutuhan HR pada perusahaan",
+      "description": "Aplikasi untuk kebutuhan HR pada perusahaan dengan format baru",
       "projectType": "Company",
       "source": "PT Bumi Menara Internusa",
       "technologies": [
-        "Codeigniter",
         "PHP",
         "JavaScript",
         "Bootstrap",
+        "Codeigniter",
         "MYSQL"
       ],
       "contributions": [
@@ -413,6 +413,46 @@
         "Membuatkan fiture form FPTK & FPMD beserta approve dan reject",
         "Membuatkan fiture dashboard FPTK digunakan untuk mengelola ketika pengajuan setelah selesai",
         "Membuatkan form Pendatan Berkala sebagai perubahan data karyawan dengan sesuai peraturan"
+      ],
+      "links": {}
+    },
+    {
+      "id": 16,
+      "title": "Apps Portal",
+      "role": "Fullstack Developer",
+      "team": "Solo Project",
+      "duration": "Juni 2025",
+      "year": 2025,
+      "description": "Tempat perkumpulan project developer",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": [
+        "JavaScript",
+        "Tailwind CSS",
+        "Next JS",
+        "MYSQL",
+        "Docker"
+      ],
+      "contributions": [
+        "Membuatkan tampilan minimalis dan responsive",
+        "Membuatkan fiture pencarian dan filter pada data"
+      ],
+      "links": {}
+    },
+    {
+      "id": 17,
+      "title": "HOHO",
+      "role": "Fullstack Developer",
+      "team": "Solo Project",
+      "duration": "July 2025 - Sekarang",
+      "year": 2025,
+      "description": "Project Management Developer dengan ketentuan perusahaan",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": ["PHP", "Tailwind CSS", "Laravel", "MYSQL", "Docker"],
+      "contributions": [
+        "Membuatkan tampilan minimalis dan responsive",
+        "Membuatkan fiture pencarian dan filter pada data"
       ],
       "links": {}
     }
