@@ -444,15 +444,31 @@
       "title": "HOHO",
       "role": "Fullstack Developer",
       "team": "Solo Project",
-      "duration": "July 2025 - Sekarang",
-      "year": 2025,
+      "duration": "January 2026",
+      "year": 2026,
       "description": "Project Management Developer dengan ketentuan perusahaan",
       "projectType": "Company",
       "source": "PT Bumi Menara Internusa",
-      "technologies": ["PHP", "Tailwind CSS", "Laravel", "MYSQL", "Docker"],
+      "technologies": ["PHP", "Laravel", "MYSQL", "Docker"],
       "contributions": [
-        "Membuatkan tampilan minimalis dan responsive",
-        "Membuatkan fiture pencarian dan filter pada data"
+        "Membuatkan fiture berdasarkan pola dari berbagai atasan"
+      ],
+      "links": {}
+    },
+    {
+      "id": 18,
+      "title": "API Menara",
+      "role": "Backend Developer",
+      "team": "Solo Project",
+      "duration": "January 2026",
+      "year": 2026,
+      "description": "Backend API untuk kebutuhan proses pengerjaan teknik mengikuti data sumber yang berasal dari SAP",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": ["JavaScript", "NodeJS", "MYSQL", "Prisma", "PM2"],
+      "contributions": [
+        "Membuatkan endpoint untuk mengambil data dari SAP dengan menggunkakan RFC",
+        "Menyimpan semua aktifitas berdasarkan Job List dengan ketentuan dari bagian Teknik"
       ],
       "links": {}
     }
