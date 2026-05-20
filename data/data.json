@@ -410,9 +410,12 @@
       ],
       "contributions": [
         "Membuatkan fiture penambahan data budget karyawan di MPP beserta approve dan reject",
-        "Membuatkan fiture form FPTK & FPMD beserta approve dan reject",
-        "Membuatkan fiture dashboard FPTK digunakan untuk mengelola ketika pengajuan setelah selesai",
-        "Membuatkan form Pendatan Berkala sebagai perubahan data karyawan dengan sesuai peraturan"
+        "Membuatkan fiture form FPTK & FMPD beserta approve dan reject",
+        "Membuatkan fiture dashboard FPTK & FMPD digunakan untuk mengelola ketika pengajuan setelah selesai",
+        "Membuatkan fiture form Pendatan Berkala sebagai perubahan data karyawan dengan sesuai peraturan",
+        "Membuatkan fiture report absen untuk PT CPA",
+        "Membuatkan fiture Innovation untuk mendata semua ide untuk seluruk karyawan PT BMI",
+        "Membuatkan fiture master data untuk semua kebutuhan yang ada di aplikasi"
       ],
       "links": {}
     },
@@ -469,6 +472,24 @@
       "contributions": [
         "Membuatkan endpoint untuk mengambil data dari SAP dengan menggunkakan RFC",
         "Menyimpan semua aktifitas berdasarkan Job List dengan ketentuan dari bagian Teknik"
+      ],
+      "links": {}
+    },
+    {
+      "id": 19,
+      "title": "DOSPEK",
+      "role": "Fullstack Developer",
+      "team": "Solo Project",
+      "duration": "May 2026",
+      "year": 2026,
+      "description": "Project spek buyer untuk memonitoring document",
+      "projectType": "Company",
+      "source": "PT Bumi Menara Internusa",
+      "technologies": ["PHP", "Laravel", "MYSQL", "Docker"],
+      "contributions": [
+        "Membuatkan widget berdsarkan permintaan users",
+        "Menyimpan dokumen ke dalam file sharing",
+        "Membuatkan fiture pemberitahuan berdsarkan penjadwalan yang sudah di tentukan"
       ],
       "links": {}
     }
