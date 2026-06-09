@@ -350,7 +350,7 @@
       "description": "Backend API untuk pengelolaan cuti dan surat tugas karyawan",
       "projectType": "Company",
       "source": "PT Bumi Menara Internusa",
-      "technologies": ["JavaScript", "NodeJS", "MYSQL", "PM2"],
+      "technologies": ["JavaScript", "NodeJS", "ExpressJS", "MYSQL", "PM2"],
       "contributions": [
         "Membuatkan login untuk aplikasi mobile",
         "Membuatkan fiture cuti tahunan, cuti khusus, ijin dan surat dinas berdasarkan peraturan perusahaan"
@@ -367,7 +367,7 @@
       "description": "Backend API untuk kebutuhan absensi aplikasi mobile karyawan CPA",
       "projectType": "Company",
       "source": "PT Bumi Menara Internusa",
-      "technologies": ["JavaScript", "NodeJS", "MYSQL", "PM2"],
+      "technologies": ["JavaScript", "NodeJS", "ExpressJS", "MYSQL", "PM2"],
       "contributions": [
         "Membuatkan login untuk aplikasi mobile",
         "Membuatkan fiture absen masuk dan pulang berdasarkan peraturan CPA"
@@ -384,7 +384,7 @@
       "description": "Backend API untuk menampilkan data untuk bea cukai",
       "projectType": "Company",
       "source": "PT Bumi Menara Internusa",
-      "technologies": ["JavaScript", "NodeJS", "MYSQL", "PM2"],
+      "technologies": ["JavaScript", "NodeJS", "ExpressJS", "MYSQL", "PM2"],
       "contributions": [
         "Membuat pengamanan lebih pada setiap proses pada endpoint API",
         "Menampilkan data yang dibutuhkan oleh bea cukai"
@@ -468,7 +468,14 @@
       "description": "Backend API untuk kebutuhan proses pengerjaan teknik mengikuti data sumber yang berasal dari SAP",
       "projectType": "Company",
       "source": "PT Bumi Menara Internusa",
-      "technologies": ["JavaScript", "NodeJS", "MYSQL", "Prisma", "PM2"],
+      "technologies": [
+        "JavaScript",
+        "NodeJS",
+        "ExpressJS",
+        "MYSQL",
+        "Prisma",
+        "PM2"
+      ],
       "contributions": [
         "Membuatkan endpoint untuk mengambil data dari SAP dengan menggunkakan RFC",
         "Menyimpan semua aktifitas berdasarkan Job List dengan ketentuan dari bagian Teknik"
